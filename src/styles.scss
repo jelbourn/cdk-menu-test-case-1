@@ -1,0 +1,44 @@
+@import '~@angular/cdk/overlay';
+
+@include cdk-overlay();
+
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+
+.cdk-menu-bar {
+  display: flex;
+}
+
+.cdk-menu-bar li {
+  padding: 8px 16px;
+}
+
+li {
+  background: rgba(40, 80, 82, 0.25);
+}
+
+li:hover {
+  background: rgba(40, 80, 82, 0.33);
+}
+
+li:active {
+  background: rgba(40, 80, 82, 0.5);
+}
+
+
+
+.cdk-menu {
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+
+  li {
+    padding: 4px 8px;
+  }
+}
